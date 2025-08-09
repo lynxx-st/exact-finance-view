@@ -26,7 +26,23 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					light: 'hsl(var(--primary-light))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))',
+					light: 'hsl(var(--success-light))'
+				},
+				danger: {
+					DEFAULT: 'hsl(var(--danger))',
+					foreground: 'hsl(var(--danger-foreground))',
+					light: 'hsl(var(--danger-light))'
+				},
+				purchase: {
+					DEFAULT: 'hsl(var(--purchase))',
+					foreground: 'hsl(var(--purchase-foreground))',
+					light: 'hsl(var(--purchase-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
